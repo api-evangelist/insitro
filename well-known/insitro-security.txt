@@ -1,0 +1,8 @@
+Contact: mailto:info@insitro.com
+Expires: 2030-04-01T00:00:00Z
+Preferred-Languages: en
+
+# insitro does not operate a bug bounty program.
+# We do not provide compensation for unsolicited vulnerability reports.
+# We will review genuine, critical security issues affecting our systems
+# but cannot commit to response timelines or remediation for all reports.

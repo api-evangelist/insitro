@@ -1,9 +1,29 @@
 aid: insitro
 name: insitro
-description: insitro is a company surfaced as a portfolio company of a16z, gv, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  insitro is a machine-learning-driven drug discovery and development company
+  founded in 2018 by Daphne Koller and headquartered in South San Francisco,
+  California. It combines large-scale in vitro cellular data generated in its own
+  automated labs with human clinical and genetic data to build predictive models
+  of biology, aiming to bring better drugs faster to the patients most likely to
+  benefit. Its therapeutic focus spans metabolism, oncology, and neuroscience,
+  and its interdisciplinary teams pair life scientists, data scientists, and
+  engineers. insitro operates no public developer API; it maintains open-source
+  research and infrastructure tooling (such as the redun workflow engine) on its
+  GitHub organization. Backed by a16z, GV, and the SoftBank Vision Fund.
 url: https://raw.githubusercontent.com/api-evangelist/insitro/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.insitro.com/wp-content/uploads/2023/11/logo-insitro.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drug Discovery
+- Machine Learning
+- Biotechnology
+- Life Sciences
+- Genomics
+- Pharmaceuticals
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://insitro.com
+  url: https://www.insitro.com
+- type: GitHubOrganization
+  url: https://github.com/insitro
+- type: PrivacyPolicy
+  url: https://www.insitro.com/privacy-policy/
+- type: Careers
+  url: https://www.insitro.com/join-us/
+- type: Packages
+  url: packages/insitro-packages.yml
+- type: WellKnown
+  url: well-known/insitro-well-known.yml
+- type: SecurityTxt
+  url: well-known/insitro-security.txt
+- type: DomainSecurity
+  url: security/insitro-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/insitro-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/insitro-security.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/insitro + https://pypi.org
+note: >-
+  insitro publishes no API client SDK (it operates no public API). These are
+  first-party open-source libraries the company maintains on its GitHub org and
+  distributes via PyPI. They are research/infra tooling, not clients for an
+  insitro API, so no `SDKs` rating pointer is emitted.
+packages:
+- language: python
+  registry: pypi
+  name: redun
+  url: https://pypi.org/project/redun/
+  install: pip install redun
+  repo: https://github.com/insitro/redun
+  docs: https://redun.readthedocs.io/
+  description: insitro's open-source workflow engine ("yet another redundant workflow engine").
+  official: true
