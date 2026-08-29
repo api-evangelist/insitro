@@ -12,6 +12,17 @@ description: >-
   research and infrastructure tooling (such as the redun workflow engine) on its
   GitHub organization. Backed by a16z, GV, and the SoftBank Vision Fund.
 url: https://raw.githubusercontent.com/api-evangelist/insitro/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
