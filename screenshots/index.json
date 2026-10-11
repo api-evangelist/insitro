@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "insitro",
+    "captured_at": "2026-10-11T190600",
+    "source_url": "https://www.insitro.com",
+    "source_type": "Website",
+    "file": "insitro-2026-10-11T190600.png",
+    "bytes": 434135,
+    "capture": "playwright-local"
+  }
+]
