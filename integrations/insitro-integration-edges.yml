@@ -28,6 +28,25 @@ edges:
     sector: Bio + Health;Growth
   detected_by: sweep-vc-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/insitro
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - insitro/cp-posh
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub models
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
 generated: '2026-10-21'
 method: searched
 source:
@@ -44,3 +63,4 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- hugging-face/integrations/hugging-face-integration-edges.yml
